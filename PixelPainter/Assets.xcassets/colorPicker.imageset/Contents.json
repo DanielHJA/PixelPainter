@@ -1,0 +1,33 @@
+{
+  "images" : [
+    {
+      "idiom" : "iphone",
+      "filename" : "round_color_lens_white_36pt_1x.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "iphone",
+      "filename" : "round_color_lens_white_36pt_2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "filename" : "round_color_lens_white_36pt_3x.png",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "ipad",
+      "filename" : "round_color_lens_white_48pt_1x.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "filename" : "round_color_lens_white_48pt_2x.png",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
