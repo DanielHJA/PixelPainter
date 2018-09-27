@@ -13,6 +13,7 @@ class DrawingWindow: UIView {
     private var multiplier: Int = 20
     private var tiles = [Tile]()
     private var tileSize: CGFloat = 0.0
+    private(set) var currentColor: UIColor = UIColor.black
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -60,9 +61,14 @@ class DrawingWindow: UIView {
 extension DrawingWindow {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         guard let touch = touches.first else { return }
-        
         let location = touch.location(in: self)
         guard let touchedView = self.hitTest(location, with: event) as? Tile else { return }
-        
+        touchedView.color = currentColor
+    }
+}
+
+extension DrawingWindow: ColorPickerDelegate {
+    func didChooseColor(_ color: UIColor) {
+        currentColor = color
     }
 }

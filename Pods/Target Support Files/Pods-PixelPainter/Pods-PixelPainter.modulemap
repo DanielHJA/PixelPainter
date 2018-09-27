@@ -1,0 +1,6 @@
+framework module Pods_PixelPainter {
+  umbrella header "Pods-PixelPainter-umbrella.h"
+
+  export *
+  module * { export * }
+}

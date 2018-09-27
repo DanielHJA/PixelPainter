@@ -10,7 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    private lazy var tileView: DrawingWindow = {
+    private lazy var transitionManager: TransitionManager = {
+        return TransitionManager(duration: 0.3)
+    }()
+    
+    private lazy var drawingWindow: DrawingWindow = {
         let temp = DrawingWindow()
         view.insertSubview(temp, aboveSubview: backgroundImageView)
         temp.translatesAutoresizingMaskIntoConstraints = false
@@ -37,6 +41,14 @@ class ViewController: UIViewController {
     private lazy var colorPicker: UIBarButtonItem = {
         return UIBarButtonItem(image: UIImage(named: Constants.Icons.colorPicker), style: .plain, target: self, action: #selector(presentColorPicker(_:))) 
     }()
+    
+    private lazy var screenshotItem: UIBarButtonItem = {
+        return UIBarButtonItem(image: UIImage(named: Constants.Icons.camera), style: .plain, target: self, action: #selector(presentColorPicker(_:)))
+    }()
+    
+    private lazy var restartItem: UIBarButtonItem = {
+        return UIBarButtonItem(image: UIImage(named: Constants.Icons.remove), style: .plain, target: self, action: #selector(presentColorPicker(_:)))
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,11 +56,15 @@ class ViewController: UIViewController {
         view.backgroundColor = UIColor.white
         navigationItem.rightBarButtonItem = colorPicker
         backgroundImageView.isHidden = false
-        tileView.isHidden = false
+        drawingWindow.isHidden = false
     }
 
     @objc private func presentColorPicker(_ sender: UIBarButtonItem) {
-        
+        let vc = ColorPickerViewController()
+        vc.delegate = drawingWindow
+        vc.transitioningDelegate = transitionManager
+        vc.modalPresentationStyle = .custom
+        present(vc, animated: true, completion: nil)
     }
     
 }

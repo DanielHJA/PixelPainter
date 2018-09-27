@@ -16,6 +16,9 @@ struct Constants {
 
     struct Icons {
         static let colorPicker = "colorPicker"
+        static let eraser = "eraser"
+        static let remove = "remove"
+        static let camera = "camera"
     }
     
 }
