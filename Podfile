@@ -8,9 +8,9 @@ target 'PixelPainter' do
   # Pods for PixelPainter
 
     pod 'ChromaColorPicker'
+    pod 'FacebookShare'
 
-
-  target 'PixelPainterTests' do
+    target 'PixelPainterTests' do
     inherit! :search_paths
     # Pods for testing
   end

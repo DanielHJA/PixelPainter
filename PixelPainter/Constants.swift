@@ -19,6 +19,10 @@ struct Constants {
         static let eraser = "eraser"
         static let remove = "remove"
         static let camera = "camera"
+        static let share = "share"
+        static let facebook = "facebook"
+        static let instagram = "instagram"
+        static let twitter = "twitter"
     }
     
 }

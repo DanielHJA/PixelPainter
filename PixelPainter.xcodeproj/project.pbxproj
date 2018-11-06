@@ -10,6 +10,11 @@
 		20DA5787D1870CE6EEF8570A /* Pods_PixelPainterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4C3A04458B989A038A085A /* Pods_PixelPainterUITests.framework */; };
 		32FAC534A8F991ED7A703A66 /* Pods_PixelPainter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC6A7B9277AE19F101BE6E5 /* Pods_PixelPainter.framework */; };
 		51F88A542B23E4F6597E5AC0 /* Pods_PixelPainterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 900DE23834B9668D7861BC99 /* Pods_PixelPainterTests.framework */; };
+		7B07DCC5215E0BAE000F891D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07DCC4215E0BAE000F891D /* Alert.swift */; };
+		7B07DCC9215E3C21000F891D /* GrowingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07DCC8215E3C21000F891D /* GrowingMenu.swift */; };
+		7B07DCCB215E419B000F891D /* GrowingMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07DCCA215E419B000F891D /* GrowingMenuItem.swift */; };
+		7B20C9EB21620040003D4C52 /* FacebookSharingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B20C9EA21620040003D4C52 /* FacebookSharingManager.swift */; };
+		7B20C9ED21620F41003D4C52 /* InstragramSharingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B20C9EC21620F41003D4C52 /* InstragramSharingManager.swift */; };
 		7BDD2DF1215CF55300CAC557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD2DF0215CF55300CAC557 /* AppDelegate.swift */; };
 		7BDD2DF3215CF55300CAC557 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD2DF2215CF55300CAC557 /* ViewController.swift */; };
 		7BDD2DF6215CF55300CAC557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDD2DF4215CF55300CAC557 /* Main.storyboard */; };
@@ -47,6 +52,11 @@
 /* Begin PBXFileReference section */
 		0DCBCBBE580F84DADDFBFBA5 /* Pods-PixelPainterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelPainterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixelPainterTests/Pods-PixelPainterTests.release.xcconfig"; sourceTree = "<group>"; };
 		6DF266AB8CF46E124928C90E /* Pods-PixelPainterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelPainterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixelPainterUITests/Pods-PixelPainterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B07DCC4215E0BAE000F891D /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		7B07DCC8215E3C21000F891D /* GrowingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingMenu.swift; sourceTree = "<group>"; };
+		7B07DCCA215E419B000F891D /* GrowingMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingMenuItem.swift; sourceTree = "<group>"; };
+		7B20C9EA21620040003D4C52 /* FacebookSharingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookSharingManager.swift; sourceTree = "<group>"; };
+		7B20C9EC21620F41003D4C52 /* InstragramSharingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstragramSharingManager.swift; sourceTree = "<group>"; };
 		7BDD2DED215CF55300CAC557 /* PixelPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDD2DF0215CF55300CAC557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BDD2DF2215CF55300CAC557 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +75,7 @@
 		7BDD2E22215CFC9200CAC557 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		7BDD2E24215D025300CAC557 /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		7BDD2E26215D041900CAC557 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		7BDD2E28215D107300CAC557 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		7BDD2E28215D107300CAC557 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7BDD2E2A215D10FC00CAC557 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 		7BDD2E2C215D146700CAC557 /* TransitionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
 		900DE23834B9668D7861BC99 /* Pods_PixelPainterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixelPainterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,8 +152,13 @@
 			children = (
 				7BDD2DF0215CF55300CAC557 /* AppDelegate.swift */,
 				7BDD2DF2215CF55300CAC557 /* ViewController.swift */,
+				7B20C9EC21620F41003D4C52 /* InstragramSharingManager.swift */,
+				7B07DCC8215E3C21000F891D /* GrowingMenu.swift */,
+				7B07DCCA215E419B000F891D /* GrowingMenuItem.swift */,
 				7BDD2E2C215D146700CAC557 /* TransitionManager.swift */,
 				7BDD2E22215CFC9200CAC557 /* Globals.swift */,
+				7B07DCC4215E0BAE000F891D /* Alert.swift */,
+				7B20C9EA21620040003D4C52 /* FacebookSharingManager.swift */,
 				7BDD2E2A215D10FC00CAC557 /* ColorPickerViewController.swift */,
 				7BDD2E24215D025300CAC557 /* CustomNavigationController.swift */,
 				7BDD2E1E215CF56800CAC557 /* DrawingWindow.swift */,
@@ -201,6 +216,7 @@
 				7BDD2DEA215CF55300CAC557 /* Frameworks */,
 				7BDD2DEB215CF55300CAC557 /* Resources */,
 				6AD6F97AB83F32179DF47D17 /* [CP] Embed Pods Frameworks */,
+				C5DCD5CD6CD499FB31E8BB5C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -352,13 +368,27 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PixelPainter/Pods-PixelPainter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/ChromaColorPicker/ChromaColorPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChromaColorPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -409,6 +439,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C5DCD5CD6CD499FB31E8BB5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PixelPainter/Pods-PixelPainter-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixelPainter/Pods-PixelPainter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -420,10 +472,15 @@
 				7BDD2DF3215CF55300CAC557 /* ViewController.swift in Sources */,
 				7BDD2DF1215CF55300CAC557 /* AppDelegate.swift in Sources */,
 				7BDD2E1F215CF56800CAC557 /* DrawingWindow.swift in Sources */,
+				7B20C9ED21620F41003D4C52 /* InstragramSharingManager.swift in Sources */,
+				7B20C9EB21620040003D4C52 /* FacebookSharingManager.swift in Sources */,
 				7BDD2E27215D041900CAC557 /* Constants.swift in Sources */,
 				7BDD2E23215CFC9200CAC557 /* Globals.swift in Sources */,
 				7BDD2E2D215D146700CAC557 /* TransitionManager.swift in Sources */,
 				7BDD2E2B215D10FC00CAC557 /* ColorPickerViewController.swift in Sources */,
+				7B07DCC5215E0BAE000F891D /* Alert.swift in Sources */,
+				7B07DCCB215E419B000F891D /* GrowingMenuItem.swift in Sources */,
+				7B07DCC9215E3C21000F891D /* GrowingMenu.swift in Sources */,
 				7BDD2E21215CF6F900CAC557 /* Tile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
